@@ -8,7 +8,7 @@ A complete, from-scratch implementation of a 32-bit RISC-V microprocessor using 
 
 ---
 
-## 🧠 Architecture Overview
+##  Architecture Overview
 
 The microprocessor is built on a modified Harvard architecture, featuring separate memory spaces for instructions and data. The design strictly adheres to a single-cycle execution model where the entire instruction cycle (Fetch, Decode, Execute, Memory Access, and Write-Back) completes within one clock period.
 
@@ -21,7 +21,7 @@ The microprocessor is built on a modified Harvard architecture, featuring separa
 
 ---
 
-## 🛠️ Supported Instructions
+##  Supported Instructions
 
 This processor implements a core subset of the **RV32I Base Integer Instruction Set**:
 
@@ -33,7 +33,7 @@ This processor implements a core subset of the **RV32I Base Integer Instruction 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 | Module/File | Description |
 | :--- | :--- |
@@ -53,7 +53,7 @@ This processor implements a core subset of the **RV32I Base Integer Instruction 
 
 ---
 
-## 🚀 Simulation & Verification
+## Simulation & Verification
 
 The design is verified using an open-source toolchain. Follow these steps to simulate the processor and analyze its behavior.
 
